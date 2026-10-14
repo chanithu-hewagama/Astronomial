@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Replace the placeholder UUID before importing.
+; Run regedit as Administrator, then import this file.
+[HKEY_LOCAL_MACHINE\Astronomial]
+"UID"="REPLACE-WITH-A-UUID"

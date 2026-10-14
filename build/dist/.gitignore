@@ -1,0 +1,60 @@
+# Compiled outputs
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# CMake/build output
+/build/
+/build-*/
+/Build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+/Testing/
+
+# Downloaded and generated dependencies
+/deps/swe-build/
+/deps/tgbot-build/
+/deps/tgbot-dist/
+/deps/swisseph/
+/deps/tgbot-cpp/
+/deps/7zip/
+/vcpkg_installed/
+
+# Installer payload/output
+/adddata/
+/Output/
+
+# Local secrets and key material
+.env
+.env.*
+!.env.example
+plugins.ini
+plugin-key.ini
+registrar-private.pem
+*.key
+*.pem
+plugins/*/*.acert
+plugins/*/plugin.ini
+
+# Python and temporary files
+__pycache__/
+*.py[cod]
+*.tmp
+*.log
+*.bak
+*.swp
+.cache/
+
+# IDE/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
